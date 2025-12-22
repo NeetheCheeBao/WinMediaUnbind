@@ -14,6 +14,23 @@
 * **彻底删除**：递归清理 `HKEY_CLASSES_ROOT` 和 `HKEY_CURRENT_USER` 下的 `FileExts` 注册表项。
 * **即时生效**：内置系统 API 调用，清理后自动刷新 Windows 图标缓存，无需重启资源管理器或电脑。
 
+## 📂 涉及的文件格式
+>
+>  ### 视频
+>  ```text
+>  avi wmv wmp wm asf mpg mpeg mpe m1v m2v mpv2 mp2v ts tp tpr trp vob ifo ogm ogv mp4 m4v m4p m4b 3gp 3gpp 3g2 3gp2 mkv rm ram rmvb rpm flv mov qt nsv dpg m2ts m2t mts dvr-ms k3g skm evo nsr amv divx webm wtv f4v mxf
+>  ```
+>
+>  ### 音频
+>  ```text
+>  wav wma mpa mp2 m1a m2a mp3 ogg m4a aac mka ra flac ape mpc mod ac3 eac3 dts dtshd wv tak cda dsf tta aiff aif opus
+>  ```
+>
+>  ### 播放列表
+>  ```text
+>  asx m3u m3u8 pls wvx wax wmx cue mpls mpl dpl xspf mpd
+>  ```
+
 ## 🛠️ 本地构建
 
 如果你想自己编译本项目，请确保已安装 [Rust](https://www.rust-lang.org/tools/install)。

@@ -1,0 +1,14 @@
+[package]
+name = "WinMediaUnbind"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.24.0" # GUI框架
+winreg = "0.51.0" # 注册表操作
+open = "5.0.0"    # 打开网页链接
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser", "windef"] }
+
+[build-dependencies]
+winres = "0.1.12" #用于设置应用图标和管理员权限

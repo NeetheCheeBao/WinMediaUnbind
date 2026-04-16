@@ -31,19 +31,6 @@
 >  asx m3u m3u8 pls wvx wax wmx cue mpls mpl dpl xspf mpd
 >  ```
 
-## 🛠️ 本地构建
-
-如果你想自己编译本项目，请确保已安装 [Rust](https://www.rust-lang.org/tools/install)。
-
-* **编译**
-```bash
-cargo build --release
- ```
-
-* **生成文件**
-
-编译完成后，可执行文件位于 `target/release/WinMediaUnbind.exe`。
-
 ## ⚠️ 警告
 
 本程序会删除 Windows 注册表中关于文件扩展名的关联项。虽然开发过程中已经过测试，但**修改注册表始终存在风险**。

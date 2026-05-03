@@ -1,0 +1,13 @@
+[package]
+name = "WinMediaUnbind"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+native-windows-gui = "1.0.12"
+native-windows-derive = "1.0.3"
+winreg = "0.51.0"
+open = "5.3.3"
+
+[build-dependencies]
+winres = "0.1.12"

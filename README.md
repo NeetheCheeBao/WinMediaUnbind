@@ -39,6 +39,16 @@
 * 建议在运行前备份重要数据。
 * 清理后，双击相关文件时 Windows 会提示“您想如何打开这个文件？”，这是正常现象。
 
+## 🛠️ 本地编译
+
+```bash
+.\build.bat
+```
+或
+```bash
+cargo build
+```
+
 ## ⬇️ 下载使用
 
 前往 [Releases](https://github.com/NeetheCheeBao/WinMediaUnbind/releases) 下载最新版、
